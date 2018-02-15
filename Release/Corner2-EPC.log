@@ -1,0 +1,73 @@
+﻿Build started 11/29/2015 11:05:45 PM.
+     1>Project "C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Corner2-EPC.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Corner2-EPC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\narendra\Documents\Visual Studio 2010\Projects\Corner2-EPC\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AC.cpp ClassDecoder.cpp ClassEncoder.cpp ClassPNG.cpp EndPoints.cpp Main.cpp
+         AC.cpp
+         ClassDecoder.cpp
+     1>ClassDecoder.cpp(363): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>ClassDecoder.cpp(744): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'size_t', possible loss of data
+     1>ClassDecoder.cpp(752): warning C4018: '<' : signed/unsigned mismatch
+     1>ClassDecoder.cpp(774): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'size_t', possible loss of data
+     1>ClassDecoder.cpp(900): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'size_t', possible loss of data
+     1>ClassDecoder.cpp(1038): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 ClassDecoder.cpp(1015) : definition of 'i' ignored
+                 ClassDecoder.cpp(908) : definition of 'i' used
+     1>ClassDecoder.cpp(1091): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 ClassDecoder.cpp(1015) : definition of 'i' ignored
+                 ClassDecoder.cpp(908) : definition of 'i' used
+     1>ClassDecoder.cpp(1160): warning C4018: '<' : signed/unsigned mismatch
+     1>ClassDecoder.cpp(1175): warning C4018: '<' : signed/unsigned mismatch
+         ClassEncoder.cpp
+     1>ClassEncoder.cpp(315): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>ClassEncoder.cpp(439): warning C4018: '<' : signed/unsigned mismatch
+     1>ClassEncoder.cpp(825): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'size_t', possible loss of data
+     1>ClassEncoder.cpp(921): warning C4018: '<' : signed/unsigned mismatch
+     1>ClassEncoder.cpp(935): warning C4018: '<' : signed/unsigned mismatch
+         ClassPNG.cpp
+         EndPoints.cpp
+         Main.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Release\Corner2-EPC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\narendra\Documents\Visual Studio 2010\Projects\Corner2-EPC\lib" zlibstat.lib libpng.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Corner2-EPC.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Release\Corner2-EPC.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Release\Corner2-EPC.lib" /MACHINE:X86 Release\AC.obj
+         Release\ClassDecoder.obj
+         Release\ClassEncoder.obj
+         Release\ClassPNG.obj
+         Release\EndPoints.obj
+         Release\Main.obj
+         Generating code
+         Finished generating code
+     1>zlibstat.lib(adler32.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>zlibstat.lib(crc32.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>zlibstat.lib(deflate.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>zlibstat.lib(inflate.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>zlibstat.lib(inftrees.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>zlibstat.lib(trees.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>zlibstat.lib(zutil.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(png.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngerror.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngget.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngmem.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngread.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngrio.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngrtran.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngrutil.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngset.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngtrans.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngwio.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngwrite.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngwtran.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngwutil.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         Corner2-EPC.vcxproj -> C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Release\Corner2-EPC.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Release\Corner2-EPC.exe;#1" /manifest "Release\Corner2-EPC.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\Corner2-EPC.unsuccessfulbuild".
+         Touching "Release\Corner2-EPC.lastbuildstate".
+     1>Done Building Project "C:\Users\narendra\Documents\Visual Studio 2010\Projects\corner2-EPC\Corner2-EPC\Corner2-EPC.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.73
